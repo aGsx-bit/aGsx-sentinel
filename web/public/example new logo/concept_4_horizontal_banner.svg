@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+  <defs>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B76BFF" />
+      <stop offset="100%" stop-color="#662D91" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="240" rx="32" fill="#0D0A14" />
+  
+  <!-- Shield Icon on Left -->
+  <g transform="translate(40, 20) scale(0.39)">
+    <path d="M 256 70 L 400 130 C 400 280 340 380 256 430 C 172 380 112 280 112 130 Z" 
+          fill="url(#bannerGrad)" stroke="#B76BFF" stroke-width="8" />
+    <circle cx="256" cy="220" r="30" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Horizontal Text -->
+  <text x="250" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="900" 
+        fill="#FFFFFF" letter-spacing="3">aGsx</text>
+  <text x="252" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" 
+        fill="#B76BFF" letter-spacing="8">PENTEST SUITE</text>
+</svg>
