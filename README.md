@@ -103,8 +103,8 @@ createdb agsx
 ### 2. Backend Installation & Run
 ```bash
 # Clone the repository
-git clone https://github.com/aGsx-bit/-aGsx-sentinel.git
-cd -aGsx-sentinel
+git clone https://github.com/aGsx-bit/aGsx-sentinel.git
+cd aGsx-sentinel
 
 # Build and start the backend
 go build -o agsx ./cmd/artex
